@@ -59,7 +59,7 @@ jobs:
 
     - name: 'Configure & build'
       run: |
-        ./configure --with-name=ICQ_Server --with-debug;
+        ./configure --with-debug;
         make all;
 
     - name: 'Install'
